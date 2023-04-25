@@ -21,7 +21,7 @@ $ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/require
 ```
 _2. Télécharger le fichier exécutable :_
 ```shell
-$ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/w_elsa_v1.0.pyc
+$ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/w_elsa_v1.0.pyc && ren w_elsa_v1.0.pyc elsa_v1.0.pyc
 ```
 _3. Télécharger les datasets et décompresser l'archive :_
 ```shell
@@ -41,7 +41,7 @@ $ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements
 ```
 _2. Télécharger le fichier exécutable :_
 ```shell
-$ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/l_elsa_v1.0.pyc
+$ wget -O elsa_v1.0.pyc https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/l_elsa_v1.0.pyc
 ```
 _3. Télécharger les datasets et décompresser l'archive :_
 ```shell
