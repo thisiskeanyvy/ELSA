@@ -1,6 +1,8 @@
 # 🧠 E.L.S.A (Electronic Learning and Scrapping Algorithm)
 Un algorithme capable d'interagir avec le réseau mondial de la connaissance en utilisant des sources de données locales sur la machine. Le programme permet d'accéder à un dictionnaire portable avec un nombre illimité d'informations sans utiliser une connexion Internet.
 
+![Demo 1](https://raw.githubusercontent.com/thisiskeanyvy/ELSA/main/demo/demo1.png)
+
 ------
 
 # 💻 Comment fonctionne l'algorithme ?
