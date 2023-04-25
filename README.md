@@ -17,15 +17,15 @@ E.L.S.A utilise des datasets qui sont des fichiers contenant les informations qu
 
 _1. Installer les bibliothèques Python pré-requises :_
 ```shell
-$ curl -sL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements.txt && pip install -r requirements.txt
+$ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements.txt && pip install -r requirements.txt
 ```
 _2. Télécharger le fichier exécutable :_
 ```shell
-$ curl -sL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/elsa_v1.0.pyc
+$ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/w_elsa_v1.0.pyc
 ```
 _3. Télécharger les datasets et décompresser l'archive :_
 ```shell
-$ curl -sL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/elsa_v1.0_datasets.tar.gz && tar xzvf elsa_v1.0_datasets.tar.gz
+$ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/elsa_v1.0_datasets.tar.gz && tar xzvf elsa_v1.0_datasets.tar.gz
 ```
 _4. Démarrer l'algorithme :_
 ```shell
@@ -41,7 +41,7 @@ $ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements
 ```
 _2. Télécharger le fichier exécutable :_
 ```shell
-$ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/elsa_v1.0.pyc
+$ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/l_elsa_v1.0.pyc
 ```
 _3. Télécharger les datasets et décompresser l'archive :_
 ```shell
