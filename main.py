@@ -41,10 +41,14 @@ def offlineLookup():
   Le dossier contenant les datasets ('data/') est introuvable...
 		\033[1;37;49m""")
 	data_files = os.listdir('data/')
+	data_files_datasets = []
+	for d in range(len(data_files)):
+		if "content" not in data_files[d]:
+			data_files_datasets.append(data_files[d])
 	result_found = 0
-	for f in range(len(data_files)):
-		if data_files[f] == f"elsa_dataset_{f+1}.txt":
-			dataset_files = data_files[f]
+	for f in range(len(data_files_datasets)):
+		if data_files_datasets[f] == f"elsa_dataset_{f+1}.txt":
+			dataset_files = data_files_datasets[f]
 			dataset_file = open(f'data/{dataset_files}', "r")
 			dataset_data_str = dataset_file.read()
 			dataset_file.close()

@@ -20,6 +20,9 @@ _1. Installer les bibliothèques Python pré-requises :_
 $ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements.txt && pip install -r requirements.txt
 ```
 _2. Télécharger le fichier exécutable :_
+
+- Windows :
+
 ```shell
 $ curl -OsL https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/w_elsa_v1.0.pyc && ren w_elsa_v1.0.pyc elsa_v1.0.pyc
 ```
@@ -40,8 +43,16 @@ _1. Installer les bibliothèques Python pré-requises :_
 $ wget https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/requirements.txt && pip3 install -r requirements.txt
 ```
 _2. Télécharger le fichier exécutable :_
+
+- Linux :
+
 ```shell
 $ wget -O elsa_v1.0.pyc https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/l_elsa_v1.0.pyc
+```
+- Termux :
+
+```shell
+$ wget -O elsa_v1.0.pyc https://github.com/thisiskeanyvy/ELSA/releases/download/v1.0/t_elsa_v1.0.pyc
 ```
 _3. Télécharger les datasets et décompresser l'archive :_
 ```shell
